@@ -1495,6 +1495,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 369482342}
     - target: {fileID: 6245461723089441421, guid: 9c2a768fa5839f445b5676db03f4c8c9, type: 3}
+      propertyPath: gamecanvasmanager
+      value: 
+      objectReference: {fileID: 8157535645482442024}
+    - target: {fileID: 6245461723089441421, guid: 9c2a768fa5839f445b5676db03f4c8c9, type: 3}
       propertyPath: Postprocessingvolume
       value: 
       objectReference: {fileID: 80313918}
@@ -1683,6 +1687,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc8f259eb2decd1428d67f4df2eccdd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gamemanager: {fileID: 0}
-  coinmanager: {fileID: 0}
-  totalcoins: 0
