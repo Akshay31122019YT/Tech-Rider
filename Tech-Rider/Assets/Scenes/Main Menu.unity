@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 99053607}
   - component: {fileID: 99053606}
   - component: {fileID: 99053605}
+  - component: {fileID: 99053608}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -331,6 +332,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99053603}
   m_CullTransparentMesh: 1
+--- !u!114 &99053608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99053603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &403462985
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +651,7 @@ GameObject:
   - component: {fileID: 538755790}
   - component: {fileID: 538755789}
   - component: {fileID: 538755788}
+  - component: {fileID: 538755791}
   m_Layer: 5
   m_Name: Shop Button
   m_TagString: Untagged
@@ -756,6 +773,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538755786}
   m_CullTransparentMesh: 1
+--- !u!114 &538755791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538755786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &614822579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,6 +1129,7 @@ GameObject:
   - component: {fileID: 834136313}
   - component: {fileID: 834136312}
   - component: {fileID: 834136311}
+  - component: {fileID: 834136314}
   m_Layer: 5
   m_Name: Settings Button
   m_TagString: Untagged
@@ -1218,6 +1251,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834136309}
   m_CullTransparentMesh: 1
+--- !u!114 &834136314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834136309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1002076101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1767,7 @@ GameObject:
   - component: {fileID: 1658536496}
   - component: {fileID: 1658536495}
   - component: {fileID: 1658536494}
+  - component: {fileID: 1658536497}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -1840,6 +1889,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658536492}
   m_CullTransparentMesh: 1
+--- !u!114 &1658536497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658536492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1911890561
 GameObject:
   m_ObjectHideFlags: 0

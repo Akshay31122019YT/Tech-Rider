@@ -30,7 +30,7 @@ public class SettingsMenu : MonoBehaviour
         }
     }
 
-    public void SetVolume (float volume)
+    public void SetMusicVolume (float volume)
     {
         FindObjectOfType<MusicPLayer>().GetComponent<AudioSource>().volume = volume;
     }
@@ -43,5 +43,24 @@ public class SettingsMenu : MonoBehaviour
     public void SetFullscreen(bool isfullscreen)
     {
         Screen.fullScreen = isfullscreen;
+    }
+
+    public void SetMasterVolume(float volume)
+    {        
+        audioMixer.SetFloat("volume", volume);
+    }
+
+    public void MuteAudio(bool ismute)
+    {
+        //if (ismute)
+        //{
+        //    audioMixer.SetFloat("volume", 0f);
+        //}
+        
+        //if (!ismute)
+        //{
+        //    audioMixer.SetFloat("volume", volumneslider.value);
+        //}
+        
     }
 }
