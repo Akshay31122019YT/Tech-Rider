@@ -168,6 +168,5 @@ public class CarController : MonoBehaviour {
 		chromaticalberation.intensity.value = 0;
 		vignette.smoothness.value = 0.4f;
 		Bloom.intensity.value = 5f;
-	}
-	
+	}    
 }

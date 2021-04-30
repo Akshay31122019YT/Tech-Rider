@@ -37,5 +37,5 @@ public class Finish_line : MonoBehaviour
         chromaticalberation.intensity.value = 1;
         YouWinUI.SetActive(true);
         FindObjectOfType<CoinManager>().Doyouwinscreeenstuf();
-    }
+    }    
 }
